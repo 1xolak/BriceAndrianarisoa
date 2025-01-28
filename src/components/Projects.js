@@ -3,6 +3,7 @@ import React from "react";
 
 function Projects() {
   const projects = [
+    {image: "/images/tabl1.PNG",},
     {image: "/images/1.png",},
     {image: "/images/2.jpg", },
     {image: "/images/3.png", },
