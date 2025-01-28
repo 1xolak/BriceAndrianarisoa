@@ -1,0 +1,26 @@
+/* src/components/AboutSlideshow.css */
+
+.slideshow-container {
+  position: relative;
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  overflow: hidden;
+}
+
+.slide {
+  font-size: 1.2em;
+  color: #333;
+  white-space: nowrap; /* Empêche le texte de revenir à la ligne */
+  border-right: 2px solid #333; /* Ajoute un curseur de saisie */
+  animation: blink-cursor 0.75s step-end infinite;
+}
+
+@keyframes blink-cursor {
+  from, to { border-color: transparent; }
+  50% { border-color: #333; }
+}
